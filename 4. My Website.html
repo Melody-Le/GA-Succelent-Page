@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MyWebSite</title>
+    <link rel="stylesheet" href="css/4MyWebsite.css">
+    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class = "companyName">
+        <img id="logo"  src="https://i.imgur.com/K847p5u.png">
+      </div>
+       
+
+      <ul class = "navigation">
+        <li><a href="#">OUR GARDEN</a></li>
+        <li><a href="#">CARING FARM</a></li>
+        <li><a href="#">CONTACT</a></li>
+        <li><a href="#">ORDER</a></li>
+      </ul>
+
+      <div class="wellcomeNote"><h1>Welcome to SUCCELENT WORLD</h1>
+        <p id="welcome">Succulent garden is waiting Alice to visit. Lets discover the jouney with us. </p></div>
+      <button class="btn">ORDER</button>
+    </header>
+
+    <div class="introProduct">
+      <h1>OUR GARDEN</h1>
+    </div>  
+
+    <div id = "product">
+      <div id = "pro1" class = "proContent">
+        <p class = "content">pastrami boudin tongue <span class="price">$22</span><br />
+        <small >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</small></p>
+      </div>
+      <div id = "pro2" class = "proContent">
+        <p class = "content">pastrami boudin tongue <span class="price">$22</span><br />
+        <small>Tri-tip capicola kielbasa salami brisket chicken rump strip steak drumstick. Meatloaf chuck boudin ribeye pork jowl. Andouille bacon jowl meatloaf pork loin prosciutto bresaola.</small></p>
+      </div>
+      <div id = "pro3" class = "proContent">
+        <p class = "content">pastrami boudin tongue <span class="price">$22</span><br />
+        <small>Tri-tip capicola kielbasa salami brisket chicken rump strip steak drumstick. Meatloaf chuck boudin ribeye pork jowl. Andouille bacon jowl meatloaf pork loin prosciutto bresaola.</small></p>
+      </div>
+      <div id = "pro4" class = "proContent">
+        <p class = "content">pastrami boudin tongue <span class="price">$22</span><br />
+        <small>Tri-tip capicola kielbasa salami brisket chicken rump strip steak drumstick. Meatloaf chuck boudin ribeye pork jowl. Andouille bacon jowl meatloaf pork loin prosciutto bresaola.</small></p>
+      </div>
+      <div id = "pro5" class = "proContent">
+        <p class = "content">pastrami boudin tongue <span class="price">$22</span><br />
+        <small>Tri-tip capicola kielbasa salami brisket chicken rump strip steak drumstick. Meatloaf chuck boudin ribeye pork jowl. Andouille bacon jowl meatloaf pork loin prosciutto bresaola.</small></p>
+      </div>
+      <div id = "pro6" class = "proContent">
+        <p class = "content">pastrami boudin tongue <span class="price">$22</span><br />
+        <small>Tri-tip capicola kielbasa salami brisket chicken rump strip steak drumstick. Meatloaf chuck boudin ribeye pork jowl. Andouille bacon jowl meatloaf pork loin prosciutto bresaola.</small></p>
+      </div>
+      <div id = "pro7" class = "proContent">
+        <p class = "content">pastrami boudin tongue <span class="price">$22</span><br />
+        <small>Tri-tip capicola kielbasa salami brisket chicken rump strip steak drumstick. Meatloaf chuck boudin ribeye pork jowl. Andouille bacon jowl meatloaf pork loin prosciutto bresaola.</small></p>
+      </div>
+      <div id = "pro8" class = "proContent">
+        <p class = "content">pastrami boudin tongue <span class="price">$22</span><br />
+        <small>Tri-tip capicola kielbasa salami brisket chicken rump strip steak drumstick. Meatloaf chuck boudin ribeye pork jowl. Andouille bacon jowl meatloaf pork loin prosciutto bresaola.</small></p>
+      </div>
+      <div id = "pro9" class = "proContent">
+        <p class = "content">pastrami boudin tongue <span class="price">$22</span><br />
+        <small>Tri-tip capicola kielbasa salami brisket chicken rump strip steak drumstick. Meatloaf chuck boudin ribeye pork jowl. Andouille bacon jowl meatloaf pork loin prosciutto bresaola.</small></p>
+      </div>
+
+    </div>
+    <button class="btn">ORDER</button>
+<script>
+  let item =  document.getElementsByClassName("content");
+  let small = document.getElementsByTagName("small");
+  for (let i=0; i<small.length; i++){
+    small[i].addEventListener("mousemove",function(event){
+          event.target.style.opacity=1; 
+        });
+    small[i].addEventListener("mouseover",function(event){
+          event.target.style.opacity=0;
+        });    
+      }
+      for (let i=0; i<item.length; i++){
+    item[i].addEventListener("mousemove",function(event){
+          event.target.style.height= "80px" ; 
+        });
+    item[i].addEventListener("mouseover",function(event){
+          event.target.style.height= "30px"; 
+        });    
+      }
+
+</script>
+</body>

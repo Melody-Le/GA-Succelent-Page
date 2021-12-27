@@ -1,0 +1,249 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  /* font-family: "Courier New", Courier, monospace; */
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+}
+#logo {
+  width: 100px;
+  display: flex;
+  position: fixed;
+  margin-left: 10px;
+  text-align: left;
+  float: left;
+}
+ul {
+  display: inline-block;
+  right: 50px;
+}
+li {
+  display: inline;
+  background-color: rgb(252, 252, 252);
+  opacity: 0.5;
+  text-align: right;
+  padding: 10px;
+}
+
+.navigation {
+  position: fixed;
+}
+header {
+  background-image: url("https://images.pexels.com/photos/1117276/pexels-photo-1117276.jpeg?cs=srgb&dl=pexels-madison-inouye-1117276.jpg&fm=jpg");
+  max-width: 100%;
+  height: 1200px;
+  background-size: cover;
+  opacity: 1;
+  text-align: center;
+  margin-top: 0px;
+  position: relative;
+}
+.btn {
+  background: #7cd1b8;
+  background-image: -o-linear-gradient(top, #7cd1b8, #3e8e7e);
+  background-image: linear-gradient(to bottom, #7cd1b8, #3e8e7e);
+  -webkit-border-radius: 7;
+  border-radius: 7px;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  text-align: left;
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+}
+
+.btn:hover {
+  background: #781d42;
+  text-decoration: none;
+}
+li:hover {
+  background: #3e8e7e;
+}
+a:hover {
+  color: white;
+}
+.wellcomeNote {
+  padding: 50px;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.8;
+  display: inline-block;
+  position: relative;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 100px;
+}
+.introProduct {
+  background-image: url("https://i.imgur.com/5DDBGAG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  opacity: 1;
+  margin: 0 auto;
+  text-align: center;
+}
+.introProduct > h1 {
+  margin: 0;
+  bottom: 0px;
+  position: relative;
+  color: #781d42;
+  top: 80%;
+  background-color: white;
+  display: inline-block;
+  opacity: 0.5;
+  padding: 30px;
+}
+#product {
+  margin-top: 0px;
+}
+.proContent {
+  background-image: url("https://i.pinimg.com/564x/81/67/a1/8167a1c557713bdd0401fa8977d29e10.jpg");
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+  display: inline-block;
+  margin: 5px 0 0 0;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  /* justify-content: space-between; */
+}
+#pro1 {
+  background-image: url("https://i.pinimg.com/564x/81/67/a1/8167a1c557713bdd0401fa8977d29e10.jpg");
+  background-size: cover;
+}
+#pro2 {
+  background-image: url("https://i.pinimg.com/564x/c9/82/f9/c982f923bf665f001b2f2bff77ea19d8.jpg");
+  background-size: cover;
+}
+#pro3 {
+  background-image: url("https://i.pinimg.com/236x/33/b8/e6/33b8e665bc9c0dde13eaacc942a4ee63.jpg");
+  background-size: cover;
+}
+#pro4 {
+  background-image: url("https://i.pinimg.com/564x/55/fd/f3/55fdf3a4abc01cd2a0dfb52d2a26d77d.jpg");
+}
+#pro5 {
+  background-image: url("https://i.pinimg.com/564x/3a/dd/58/3add5832a700722b3f5950f48e8a4f70.jpg");
+  background-size: cover;
+  background-position-y: -100px;
+}
+#pro6 {
+  background-image: url("https://i.pinimg.com/564x/00/8b/ba/008bba6ce5f094f4a8fbb3760c318cde.jpg");
+  background-size: cover;
+  background-position-y: -100px;
+}
+#pro7 {
+  background-image: url("https://i.pinimg.com/564x/27/30/f4/2730f40ac1f92874384cb4aa0dbdf427.jpg");
+  background-size: cover;
+  background-position-y: center;
+}
+#pro8 {
+  background-image: url("https://i.pinimg.com/564x/0d/30/26/0d30264fe5e0c5adb10047ca0e30ea87.jpg");
+  background-position-y: center;
+  background-size: cover;
+}
+#pro9 {
+  background-image: url("https://i.pinimg.com/564x/8f/e8/8d/8fe88d393f5950508dc0317d298824e1.jpg");
+  background-size: cover;
+  background-position-y: center;
+}
+.price {
+  float: right;
+}
+p:not(#welcome) {
+  color: white;
+  margin: 0;
+  bottom: 0;
+  background: black;
+  background: linear-gradient(
+    bottom,
+    rgba(64, 104, 130, 1),
+    rgba(64, 104, 130, 0.4)
+  );
+  background: -webkit-linear-gradient(
+    bottom,
+    rgba(64, 104, 130, 1),
+    rgba(64, 104, 130, 0.4)
+  );
+  background: -moz-linear-gradient(
+    bottom,
+    rgba(64, 104, 130, 1),
+    rgba(64, 104, 130, 0.4)
+  );
+  padding: 20px;
+  text-align: justify;
+  position: absolute;
+  /* height: 30px; */
+  transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  -moz-transition: height 0.5s;
+}
+small {
+  opacity: 0;
+}
+@media (max-width: 500px) {
+  body {
+    font-size: 9.5px;
+  }
+  #logo {
+    width: 80px;
+    margin-left: 0px;
+  }
+  a {
+    font-size: 100%;
+  }
+  li {
+    display: block;
+  }
+  ul {
+    right: 5px;
+  }
+  .introProduct {
+    background-color: red;
+  }
+  header {
+    height: 500px;
+  }
+  .btn {
+    border-radius: 7px;
+    color: white;
+    font-size: 9px;
+    padding: 5px 5px 5px 5px;
+    bottom: 10px;
+    left: 10px;
+    border: none;
+  }
+  .wellcomeNote {
+    padding: 10px;
+    font-size: 8px;
+    width: 40%;
+    height: 25%;
+  }
+  .proContent {
+    background-size: cover;
+    width: 100%;
+    height: 60%;
+    display: block;
+    margin: 5px auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: relative;
+  }
+  #pro7 {
+    background-position-y: 2800px;
+  }
+  small {
+    opacity: 1;
+  }
+}
